@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<!-- <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav> -->
+
+<!-- Header-->
+<div class="header">
+  <div class="header-top container p-0">
+    <div class="header-left row">
+        <h1 class="col-4 text-logo mb-0">Tin tức Dạo</h1>
+        <div class="box-search col-6 position-relative">
+            <input type="text" placeholder="Nhập nội dung tìm kiếm">
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+    <div class="header-right text-end">
+        <i class="fas fa-user-circle user-icon"></i>
+        <ul class="user-list d-none">
+            <li class="user-item">Thông tin của tôi</li>
+            <li class="user-item">Đăng nhập</li>
+        </ul>
+    </div>
+  </div>
+  <div class="header-bottom">
+    <ul class="menu-list container">
+        <li class="menu-item">
+            <a href="#">Nổi bật</a>
+        </li>
+        <li class="menu-item">
+            <a href="#">Mới</a>
+        </li>
+        <li class="menu-item">
+            <a href="#">Chủ đề</a>
+        </li>
+        <li class="menu-item">
+            <a href="#">Blog</a>
+        </li>
+    </ul>
+  </div>
+</div>
+<!-- / Header-->
+
+<!-- Content  -->
+<div class="main">
+    <div class="container">
+        <!-- Trend -->
+        <div class="new-trending">
+            <div class="row">
+                <div class="col-8">
+                    <div class="trend-top mb-4">
+                        <img src="https://themewagon.github.io/aznews/assets/img/trending/trending_top.jpg">
+                        <div class="trend-top-cap">
+                            <span>Appetizers</span>
+                            <h2><a href="./detail.html">Chào mừng sự trở lại của nhóm <br> nhạc người Mỹ</a></h2>
+                        </div>
+                    </div>
+                    <div class="trend-bottom">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="trend-bottom-img mb-3">
+                                    <img src="https://themewagon.github.io/aznews/assets/img/trending/trending_bottom1.jpg" alt="">
+                                </div>
+                                <div class="trend-bottom-cap">
+                                    <span class="color1">Lifestyple</span>
+                                    <h4><a href="./detail.html">Cách kinh doanh mới, tìm hiểu ngay.”</a></h4>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                              <div class="trend-bottom-img mb-3">
+                                <img src="https://themewagon.github.io/aznews/assets/img/trending/trending_bottom2.jpg" alt="">
+                              </div>
+                              <div class="trend-bottom-cap">
+                                  <span class="color2">Sports</span>
+                                  <h4><a href="./detail.html">Cuộc tái ngộ của 2 ngôi sao lớn.”</a></h4>
+                              </div>
+                            </div>
+                            <div class="col-4">
+                              <div class="trend-bottom-img mb-3">
+                                <img src="https://themewagon.github.io/aznews/assets/img/trending/trending_bottom3.jpg" alt="">
+                              </div>
+                              <div class="trend-bottom-cap">
+                                  <span class="color3">Travels</span>
+                                  <h4><a href="./detail.html">Các địa điểm nổi bật dành cho cặp đôi.”</a></h4>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="trend-right d-flex">
+                      <div class="trend-right-img">
+                        <img src="https://themewagon.github.io/aznews/assets/img/trending/right1.jpg" alt="">
+                      </div>
+                      <div class="trend-right-cap">
+                        <span class="color1">Concert</span>
+                        <h4><a href="./detail.html">Bang nhạc lớn sắp trở lại</a></h4>
+                      </div>
+                    </div>
+                    <div class="trend-right d-flex">
+                      <div class="trend-right-img">
+                        <img src="https://themewagon.github.io/aznews/assets/img/trending/right2.jpg" alt="">
+                      </div>
+                      <div class="trend-right-cap">
+                        <span class="color3">Sea Beach</span>
+                        <h4><a href="#">Động vật biển mới được khám phá</a></h4>
+                      </div>
+                    </div>
+                    <div class="trend-right d-flex">
+                      <div class="trend-right-img">
+                        <img src="https://themewagon.github.io/aznews/assets/img/trending/right3.jpg" alt="">
+                      </div>
+                      <div class="trend-right-cap">
+                        <span class="color2">Bike Show</span>
+                        <h4><a href="#">Chiếc xe địa hình mới ra mắt</a></h4>
+                      </div>
+                    </div>
+                    <div class="trend-right d-flex">
+                      <div class="trend-right-img">
+                        <img src="https://themewagon.github.io/aznews/assets/img/trending/right4.jpg" alt="">
+                      </div>
+                      <div class="trend-right-cap">
+                        <span class="color4">See Beach</span>
+                        <h4><a href="#">Một môn thể thao mới sẽ xuất hiện ?</a></h4>
+                      </div>
+                    </div>
+                    <div class="trend-right d-flex">
+                      <div class="trend-right-img">
+                        <img src="https://themewagon.github.io/aznews/assets/img/trending/right5.jpg" alt="">
+                      </div>
+                      <div class="trend-right-cap">
+                        <span class="color1">Skeping</span>
+                        <h4><a href="#">Môn thể thao mạo hiểm giữa trời đông</a></h4>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- / Trend -->
+        
+        <!-- Weekly -->
+        <div class="new-weekly mt-4">
+          <div class="new-heading-text mb-4">
+            <h3>Tin nổi bật trong tuần</h3>
+          </div>
+          <div class="new-weekly-content">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="new-weekly-item">
+                    <div class="new-weekly-item_img">
+                      <img src="https://themewagon.github.io/aznews/assets/img/news/weeklyNews1.jpg" alt="">
+                    </div>
+                    <div class="new-weekly-item_caption">
+                      <span class="color1">Strike</span>
+                      <h4><a href="./detail.html" tabindex="-1">Lễ hội của một dân tộc châu phi</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="new-weekly-item">
+                    <div class="new-weekly-item_img">
+                      <img src="https://themewagon.github.io/aznews/assets/img/news/weeklyNews2.jpg" alt="">
+                    </div>
+                    <div class="new-weekly-item_caption">
+                      <span class="color1">Strike</span>
+                      <h4><a href="./detail.html" tabindex="-1">Cuộc vận động ủng hộ học tập</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="new-weekly-item">
+                    <div class="new-weekly-item_img">
+                      <img src="https://themewagon.github.io/aznews/assets/img/news/weeklyNews3.jpg" alt="">
+                    </div>
+                    <div class="new-weekly-item_caption">
+                      <span class="color1">Music</span>
+                      <h4><a href="./detail.html" tabindex="-1">Biểu diễn ngoài đường phố tại Anh</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="new-weekly-item">
+                    <div class="new-weekly-item_img">
+                      <img src="https://themewagon.github.io/aznews/assets/img/news/weeklyNews1.jpg" alt="">
+                    </div>
+                    <div class="new-weekly-item_caption">
+                      <span class="color1">Strike</span>
+                      <h4><a href="./detail.html" tabindex="-1">Lễ hội của một dân tộc châu phi</a></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="new-weekly-item">
+                    <div class="new-weekly-item_img">
+                      <img src="https://themewagon.github.io/aznews/assets/img/news/weeklyNews3.jpg" alt="">
+                    </div>
+                    <div class="new-weekly-item_caption">
+                      <span class="color1">Music</span>
+                      <h4><a href="./detail.html" tabindex="-1">Biểu diễn ngoài đường phố tại Anh</a></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+        <!-- / Weekly -->
+
+        <!-- What new -->
+        <div class="new-what mt-4">
+          <div class="row">
+            <div class="col-8">
+              <div class="row d-flex justify-content-between">
+                <div class="col-lg-3 col-md-3">
+                    <div class="section-tittle mb-3">
+                        <h3>Tin tức mới</h3>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <div class="properties__button">
+                        <!--Nav Button  -->                                            
+                        <nav>                                                                     
+                            <div class="nav nav-tabs select-list" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active show" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Tất cả</a>
+                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Cuộc sống</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Du lịch</a>
+                                <a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Thời trang</a>
+                                <a class="nav-item nav-link" id="nav-Sports" data-toggle="tab" href="#nav-nav-Sport" role="tab" aria-controls="nav-contact" aria-selected="false">Thể thao</a>
+                            </div>
+                        </nav>
+                        <!--End Nav Button  -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="whats-news-caption">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="single-what-news mb-100">
+                            <div class="what-img">
+                                <img src="https://themewagon.github.io/aznews/assets/img/news/whatNews1.jpg" alt="">
+                            </div>
+                            <div class="what-cap">
+                                <span class="color1">Night party</span>
+                                <h4><a href="./detail.html">Âm nhạc sôi động ở một Party ven biển</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="single-what-news mb-100">
+                            <div class="what-img">
+                                <img src="https://themewagon.github.io/aznews/assets/img/news/whatNews2.jpg" alt="">
+                            </div>
+                            <div class="what-cap">
+                                <span class="color1">Night party</span>
+                                <h4><a href="./detail.html">Sinh viên nên tuân thủ giờ lên lớp</a></h4>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-lg-6 col-md-6">
+                        <div class="single-what-news mb-100">
+                            <div class="what-img">
+                                <img src="https://themewagon.github.io/aznews/assets/img/news/whatNews3.jpg" alt="">
+                            </div>
+                            <div class="what-cap">
+                                <span class="color1">Night party</span>
+                                <h4><a href="./detail.html">Khoảnh khắc chờ đợi sự kiện lớn</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="single-what-news mb-100">
+                            <div class="what-img">
+                                <img src="https://themewagon.github.io/aznews/assets/img/news/whatNews4.jpg" alt="">
+                            </div>
+                            <div class="what-cap">
+                                <span class="color1">Night party</span>
+                                <h4><a href="./detail.html">Đi du lịch ven biển vào tháng 6</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <div class="col-4">
+              <div class="section-tittle">
+                <h3 style="margin-bottom: 40px;">Follow Us</h3>
+            </div>
+            <div class="single-follow mb-5">
+              <div class="single-box">
+                  <div class="follow-us d-flex align-items-center">
+                      <div class="follow-social">
+                          <a href="#"><img src="https://themewagon.github.io/aznews/assets/img/news/icon-fb.png" alt=""></a>
+                      </div>
+                      <div class="follow-count">  
+                          <span>8,045</span>
+                          <p>Fans</p>
+                      </div>
+                  </div> 
+                  <div class="follow-us d-flex align-items-center">
+                      <div class="follow-social">
+                          <a href="#"><img src="https://themewagon.github.io/aznews/assets/img/news/icon-tw.png" alt=""></a>
+                      </div>
+                      <div class="follow-count">
+                          <span>8,045</span>
+                          <p>Fans</p>
+                      </div>
+                  </div>
+                      <div class="follow-us d-flex align-items-center">
+                      <div class="follow-social">
+                          <a href="#"><img src="https://themewagon.github.io/aznews/assets/img/news/icon-ins.png" alt=""></a>
+                      </div>
+                      <div class="follow-count">
+                          <span>8,045</span>
+                          <p>Fans</p>
+                      </div>
+                  </div>
+                  <div class="follow-us d-flex align-items-center">
+                      <div class="follow-social">
+                          <a href="#"><img src="https://themewagon.github.io/aznews/assets/img/news/icon-yo.png" alt=""></a>
+                      </div>
+                      <div class="follow-count">
+                          <span>8,045</span>
+                          <p>Fans</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="news-poster d-none d-lg-block">
+              <img src="https://themewagon.github.io/aznews/assets/img/news/news_card.jpg" alt="">
+            </div>
+            </div>
+          </div>
+        </div>
+        <!-- What new -->
+    </div>
+</div>
+<!-- /Content  -->
+
+<!-- Footer -->
+<div class="footer">
+  <div class="footer-area footer-padding fix">
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12">
+                <div class="single-footer-caption">
+                    <div class="single-footer-caption">
+                        <!-- logo -->
+                        <div class="footer-logo">
+                            <a href="#">Tin tức dạo</a>
+                        </div>
+                        <div class="footer-tittle">
+                            <div class="footer-pera">
+                                <p>Chúng tôi sẽ luôn cố gắng đưa những thông tin mới nhất , nhanh nhất và tin cậy nhất đên với người đọc. Mong rằng mọi người sẽ luôn ủng hộ những tin tức mới nhất từ phía website của chúng tôi.</p>
+                            </div>
+                        </div>
+                        <!-- social -->
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4  col-sm-6">
+                <div class="single-footer-caption mt-60">
+                    <div class="footer-tittle">
+                        <h4>Newsletter</h4>
+                        <p>Heaven fruitful doesn't over les idays appear creeping</p>
+                        <!-- Form -->
+                        <div class="footer-form d-flex">
+                          <input type="text"  placeholder=" Email Address ">
+                          <div class="form-icon">
+                            <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm"><img src="https://themewagon.github.io/aznews/assets/img/logo/form-iocn.png" alt=""></button>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                <div class="single-footer-caption mb-50 mt-60">
+                    <div class="footer-tittle">
+                        <h4>Instagram Feed</h4>
+                    </div>
+                    <div class="instagram-gellay">
+                        <ul class="insta-feed">
+                            <li><a href="#"><img src="https://themewagon.github.io/aznews/assets/img/post/instra1.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="https://themewagon.github.io/aznews/assets/img/post/instra2.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="https://themewagon.github.io/aznews/assets/img/post/instra3.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="https://themewagon.github.io/aznews/assets/img/post/instra4.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="https://themewagon.github.io/aznews/assets/img/post/instra5.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="https://themewagon.github.io/aznews/assets/img/post/instra6.jpg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- / Footer -->
+<!-- !PAGE CONTENT! -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/fontawesome.min.js" integrity="sha512-ywaT8M9b+VnJ+jNG14UgRaKg+gf8yVBisU2ce+YJrlWwZa9BaZAE5GK5Yd7CBcP6UXoAnziRQl40/u/qwVZi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="./main.js"></script>
+</body>
+</html>
